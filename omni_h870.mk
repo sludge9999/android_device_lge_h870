@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
+PRODUCT_SHIPPING_API_LEVEL := 25
+
 # Release name
 PRODUCT_RELEASE_NAME := h870
 
